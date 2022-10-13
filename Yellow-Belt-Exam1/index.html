@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Shelter</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&family=Roboto+Mono&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="head-cont">
+                <div class="head-top">
+                    <img src="images/heart-light.png" alt="heart-light">
+                    <h1>Pet Shelter</h1>
+                    <ul>
+                        <li><a href="#">Find a Pet</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><button class="donate" onclick="remove(this)">Donate</button></li>
+                    </ul>
+                </div>
+                <div class="head-bot">
+                    <div class="pet-type">
+                        <p>I'm looking for a...</p>
+                        <div class="select">
+                            <label for="select"><img class= "paw" src="images/paw-light.png" alt="paw"></label>
+                            <select name="petType" id="select" onchange="alertMessage()">
+                                <option value="You are looking for any pet">Any pet</option>
+                                <option value="You are looking for a: Dog">Dog</option>
+                                <option value="You are looking for a: Cat">Cat</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="location">
+                        <p>In or near...</p>
+                        <div class="loc-text">
+                            <label for="location"><img class= "map" src="images/pin-light.png" alt="map-marker"></label>
+                            <input type="text" name="location" id="location" placeholder="City or Zip Code">
+                        </div>
+                    </div>
+                    <button class="find">Find your new best friend</button>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="box">
+                <div class="col-1">
+                    <img src="images/pepper.jpg" alt="pepper_dog">
+                </div>
+                <div class="col-2">
+                    <h2>Pepper</h2>
+                    <p>Pepper is a slightly shy grey tabby, but she really loves showing her human affection</p>
+                </div>
+                <div class="col-3">
+                    <p class="num">3 petting(s)</p>
+                    <button class="pet" onclick="add1(0)">Pet Pepper</button>
+                </div>
+            </div>
+            <div class="box" id="dark_box">
+                <div class="col-1">
+                    <img src="Images/bruce.jpg" alt="bruce_dog">
+                </div>
+                <div class="col-2">
+                    <h2>Bruce</h2>
+                    <p>Bruce is a loyal companion. He loves long walks and cold weather.</p>
+                </div>
+                <div class="col-3">
+                    <p class="num">5 petting(s)</p>
+                    <button class="pet" onclick="add1(1)">Pet Bruce</button>
+                </div>
+            </div>
+            <div class="box">
+                <div class="col-1">
+                    <img src="Images/oscar.jpg" alt="oscar_dog">
+                </div>
+                <div class="col-2">
+                    <h2>Oscar</h2>
+                    <p>Oscar is bright, energetic, and friendly. He is looking for a good home.</p>
+                </div>
+                <div class="col-3">
+                    <p class="num">8 petting(s)</p>
+                    <button class="pet" onclick="add1(2)">Pet Oscar</button>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

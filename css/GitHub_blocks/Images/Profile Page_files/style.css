@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    border: 1px solid red;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.navbar {
+    border: 1px solid green;
+    height: 50px;
+    width: 1200px;
+    background-color: teal;
+    display: flex;
+}
+
+#nav-links {
+    align-items: center;
+    justify-content: space space-between;
+}
+
+#nav-links li {
+    align-items: center;
+    justify-content: space-around;
+}
+
+.content-main {
+    display: flex;
+}
+
+.content-left{
+border: 2px solid purple;
+flex-direction: column;
+align-items: flex-start;
+}
+
+.user-card {
+border: 2px solid blue;
+}
+
+#nav-header{
+
+}
+
+#prof-pic {
+
+}
+
+#bio {
+
+}
+
+#settings {
+
+}
+
+.education {
+border: 2px solid ;
+}
+
+#edu-header {
+
+}
+
+#edu-body {
+
+}
+
+.content-right {
+border: 2px solid orange;
+flex-direction: column;
+align-items: flex-end;
+
+}
+
+.con-requests {
+
+}
+
+#req-header {
+
+}
+
+#req-body {
+
+}
+
+.your-cons {
+
+}
+
+#your-header {
+
+}
+
+#your-body {
+
+}
+
+#your-footer {
+
+}

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="nav-left">
+                <h1>Profile</h1>
+                <ul id="nav-links">
+                    <li>Home</li>
+                    <li>My Profile</li>
+                    <li>Find Connections</li>
+                </ul>
+            </div>
+            <button>Sign Out</button>
+        </div>
+        <div class="content-main">
+            <div class="content-left">
+                <div class="user-card">
+                    <div id="prof-header"></div>
+                    <div id="prof-pic">
+                        <img src="/Web-Fund/css/Profile-Page/images/trev.png" alt="prof-pic">
+                    </div>
+                <div id="bio">
+                    <h1 id="name">Trevor Tompkins</h1>
+                    <h3><img src="/Web-Fund/css/Profile-Page/icons/map-marker.png" alt="map-marker"> Denver</h3>
+                    <p>Developer | Engineer | Problem Solver</p>
+                    <p>Master of shadows and the Internet</p>
+                </div>
+                <div id="settings">
+                    <img src="/Web-Fund/css/Profile-Page/icons/gear.png" alt="gear">
+                    <a href="#" onclick="changeName('#name')">edit profile</a>
+                </div>
+                </div>
+                <div class="education">
+                    <div class="edu-header">
+                        <h4>Education</h4>
+                    </div>
+                    <div class="edu-body">
+                        <h3>Coding Dojo - Full Stack Bootcamp</h3>
+                        <p>Dec 2019 - Mar 2020</p>
+                        <p id="bold">Triple black belt in Python, MERN and C#</p>
+                    </div>
+                </div>
+            </div>
+            <div class="content-right">
+                <div class="con-requests">
+                    <div class="req-header">
+                        <p class="num-reqs">2</p>
+                        <p>Connection Requests</p>
+                    </div>
+                    <div id="req-body">
+                        <div class="user-1">
+                            <div class="user">
+                                <img src="/Web-Fund/css/Profile-Page/images/todd-s.jpg" alt="Todd" class="pic">
+                                <p>Todd E</p>
+                            </div> 
+                            <div class="action">
+                                <img src="/Web-Fund/css/Profile-Page/icons/accept-circle.png" alt="accept" class="toggle" onclick="erase('.user')">
+                                <img src="/Web-Fund/css/Profile-Page/icons/close-circle.png" alt="deny" class="toggle" onclick="erase('.user')">
+                            </div>
+                        </div>
+                        <div class="user-2">
+                            <div class="user">
+                                <img src="/Web-Fund/css/Profile-Page/images/phil-s.jpg" alt="Phil" class="pic">
+                                <p>Phil K</p>
+                            </div>
+                            <div class="action">
+                                <img src="/Web-Fund/css/Profile-Page/icons/accept-circle.png" alt="accept" class="toggle" onclick="erase('.user')">
+                                <img src="/Web-Fund/css/Profile-Page/icons/close-circle.png" alt="deny" class="toggle" onclick="erase('.user')">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="your-cons">
+                    <div id="your-header">
+                        <p class="num-cons">500+</p>
+                        <p>Your Connections</p>
+                    </div>
+                    <div id="your-body">
+                        <div class="con-1">
+                            <img src="/Web-Fund/css/Profile-Page/images/adrien-s.jpg" alt="Adrien D" class="pic">
+                            <p>Adrien D</p>
+                        </div>
+                        <div class="con-2">
+                            <img src="/Web-Fund/css/Profile-Page/images/anne-s.jpg" alt="Anne J" class="pic">
+                            <p>Anne J</p>
+                        </div>
+                        <div class="con-3">
+                            <img src="/Web-Fund/css/Profile-Page/images/alayne-s.jpg" alt="Alayne T" class="pic">
+                            <p>Alayne T</p>
+                        </div>
+                        <div class="con-4">
+                            <img src="/Web-Fund/css/Profile-Page/images/arry-s.jpg" alt="Arry Y" class="pic">
+                            <p>Arry Y</p>
+                        </div>
+                    </div>
+                    <div id="your-footer">
+                        <p>View More</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

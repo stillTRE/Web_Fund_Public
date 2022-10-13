@@ -1,0 +1,47 @@
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid white;
+    background-color: grey;
+    width: 750px;
+    height: 50px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.nav-title {
+    display: flex;
+    text-align: center;
+    justify-content: flex-start;
+    vertical-align: top;
+    margin: 10px;
+    color: white;
+    font-weight: lighter;
+}
+
+.nav-links > li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    margin: left 30px;
+    margin: right 30px;
+    padding: 10px;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+.btn {
+    background-color: rgb(55, 172, 185);
+    border: 2px solid black;
+    color: white;
+    box-shadow: 2px 2px 2px black;
+}

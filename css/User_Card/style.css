@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 600px;
+    max-height: 300px;
+    margin: 50px;
+    padding: 10px;
+    align-items: center;
+}
+.header {
+    background-color: teal;
+    width: 600px;
+    height: 100px;
+}
+.user-info {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        margin: 10px;
+}
+
+.location {
+margin-top: 10px;
+}
+
+.bio {
+    margin-top: 10px;
+}
+
+.settings {
+    margin-top: 10px;
+    margin-left: 15px;
+    text-decoration: underline;
+    color: teal;
+
+}
+
+#avatar {
+    width: 50px;
+    justify-content: flex-start;
+    margin: 10px;
+    margin-top: -40px;
+
+}
+
+#map-marker, #gear {
+    height: 20px;
+}
+

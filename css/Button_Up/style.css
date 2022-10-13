@@ -1,0 +1,38 @@
+#box-1, #box-2, #box-3{
+    margin: 10px;
+    padding: 10px;
+}
+
+#box-1 > button {
+    width: 150px;
+    height: 25px;
+    border:2px solid rgb(104, 198, 159);
+    border-radius: 16px;
+    text-align: center;
+    color: rgb(104, 198, 159);
+    font-weight: bold;
+    }
+
+#box-2 > button {
+    border-radius: 50%;
+    border: 0px;
+    background-color: rgb(104, 198, 159);
+    color: white;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    font-size: 32px;
+}
+
+#box-3 > button {
+    width: 200px;
+    height: 30px;
+    border: 3px solid black;
+    box-shadow: 3px 1px 1px black;
+    color: white;
+    font-size: 16px;
+    font-weight: lighter;
+    background-color: blue;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}

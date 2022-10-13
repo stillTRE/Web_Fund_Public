@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Comic Neue', cursive;
+}
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    border: 2px solid black;
+}
+
+.navbar {
+    height: 50px;
+    width: inherit;
+    background-color: black;
+    display: flex;
+    padding-left: 100px;
+    color: white;
+}
+
+.nav-left {
+    display: flex;
+}
+#nav-links {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-indent: 10px;
+}
+
+button {
+    background-color: teal;
+    color:white;
+    height: 25px;
+    width: 75px;
+    align-items: center;
+    margin-top: 10px;
+    text-align: center;
+    margin-left: 150px;
+    
+}
+.content-main {
+    display: flex;
+    padding: 25px 100px 25px 100px;
+    width: inherit;
+    height: 600px;
+}
+
+.content-left {
+flex-direction: column;
+align-items: flex-start;
+margin-right: 5%;
+height: 525px;
+width: 400px;
+}
+
+.user-card {
+height: 315px;
+margin-bottom: 25px;
+border: 2px solid lightgrey;
+}
+
+#prof-header{
+background-color: teal;
+width: inherit;
+height: 100px;;
+}
+
+#prof-pic img {
+    height: 85px;
+    width: 85px;
+    border-radius: 50%;
+    border: 5px solid lightgrey;
+    margin-left: 20px;
+    margin-top: -40px;
+}
+#bio {
+text-indent: 20px;
+}
+
+#bio p, #bio h3 {
+    margin-top: 5px;
+}
+#settings {
+margin-left: 20px;
+padding-top: 10px;
+}
+
+.education {
+border: 2px solid lightgray;
+height: 125px;
+}
+
+.edu-header {
+    width: inherit;
+    height: 30px;
+    background-color: black;
+    color: white;
+    text-indent: 20px;
+    padding: 5px;
+}
+
+.edu-body {
+text-indent: 20px;
+}
+
+.edu-body h3 {
+    font-weight: bolder;
+    color: black;
+}
+
+.edu-body h3, .edu-body p {
+    margin-top: 10px;
+}
+
+.edu-body p {
+color: gray;
+}
+
+#bold {
+    font-weight: 900;
+    color: black;
+}
+
+.content-right {
+flex-direction: column;
+width: 200px;
+height: 525px;
+}
+
+.con-requests {
+border: 2px solid lightgrey;
+}
+
+.req-header {
+    width: inherit;
+    height: 30px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;    
+}
+
+#req-body {
+    width: 200px;
+    height: 111px;
+    display: flex;
+    flex-direction: column;
+}
+
+.user-1, .user-2 {
+    display: flex;
+    height: 50px;
+    width: 200px;
+    justify-content: space-between;
+    align-items: center;
+}
+.user {
+    display: flex;
+    align-items: center;
+}
+
+.action {
+    margin-right: 10px;
+}
+.user img, .user p {
+    margin-left: 10px;
+}
+
+.your-cons {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 200px;
+    border: 2px solid lightgrey;
+
+}
+
+#your-header {
+    width: inherit;
+    height: 30px;
+    background-color: black;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+#your-body {
+    border: 2px solid grey;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.con-1, .con-2, .con-3, .con-4 {
+    display: flex;
+    padding: 10px 0px;
+    align-items: center;
+}
+
+.con-1 .pic, .con-2 .pic, .con-3 .pic, .con-4 .pic {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#your-footer {
+    width: 200px;
+    height: 30px;
+    border: 2px solid lightgray;
+    text-indent: 10px;
+    text-decoration: underline;
+    color: blue;
+    padding-top: 2px;
+
+}
+
+#bio p > img, #settings img, #bio h3 > img {
+    height: 20px;
+}
+
+.toggle {
+    height: 20px;
+    width: 20px;
+    
+}
+
+
+.pic{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.num-reqs {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: grey;
+    color: black;
+    align-items: center;
+    text-align: center;
+    font-size: small;
+    padding-top: 2px;
+}
+
+.num-cons {
+    height: 20px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: grey;
+    color: black;
+    align-items: center;
+    text-align: center;
+    font-size: small;
+    padding-top: 2px;
+}

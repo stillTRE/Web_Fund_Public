@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Shelter Form</title>
+</head>
+<body>
+    <h1>Welcome to pet shelter</h1>
+    <img src="images/cat.jpg" alt="Cuddly little kitty">
+    <h2>Add your pet here:</h2>
+    <form action="submit" method="post">
+        <div>
+            <label for="pet_name">Pet name:</label>
+            <input type="text" id="pet_name" name="pet_name">
+        </div>
+        <div>
+            <label for="pet_type">Pet type:</label>
+            <select name="pet_type" id="pet_type">
+                <option value="" hidden aria-placeholder=>Select an option</option>
+                <option value="Dog">Dog</option>
+                <option value="Cat">Cat</option>
+                <option value="Dragon">Dragon</option>
+                <option value="Fish">Fish</option>
+            </select>
+        </div>
+
+    </form>
+</body>
+</html>
