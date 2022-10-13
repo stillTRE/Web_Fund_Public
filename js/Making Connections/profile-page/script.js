@@ -26,9 +26,14 @@ function decreaseReq() {
 }
 
 function increaseCon() {
+    
     badge = document.querySelector('#badge1')
     badge = badge.innerText --;
     badge2 = document.querySelector('#badge2');
-    badge2 = badge2.innerText ++;
-    // console.log(badge2.innerHtml);
+    var id = parseInt(badge2.innerText.match(/\d+/g));
+    id++;
+    badge2.innerText = id + '+';
+    // console.log(id);
 }
+
+
