@@ -15,5 +15,6 @@ function add1(idx) {
 
 function alertMessage() {
     var x = document.getElementById("select").value;
-    alert(x);
+    var x.value = "This page is loading"
+    alert(x.value);
 }

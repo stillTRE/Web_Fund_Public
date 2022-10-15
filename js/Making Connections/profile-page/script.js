@@ -36,4 +36,12 @@ function increaseCon() {
     // console.log(id);
 }
 
+var arrayHigh = [24,27,21,26];
+var arrayHighElement = document.querySelectorAll(".high");
+console.log(arrayElement);
 
+function add1(idx) {
+    // console.log(idx);
+    array[idx]++;
+    arrayElement[idx].innerText = array[idx] + 'likes';
+}
